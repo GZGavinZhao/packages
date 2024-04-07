@@ -12,7 +12,7 @@ description: |
 patterns   :
     - /usr/lib/libbolt_rt*.a
 clang      : yes
-builddeps  :
+checkdeps  :
     - git
 setup      : |
     %cmake_ninja -S llvm -DLLVM_ENABLE_ASSERTIONS=ON \

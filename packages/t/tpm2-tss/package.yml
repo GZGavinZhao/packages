@@ -13,9 +13,9 @@ builddeps  :
     - pkgconfig(libcurl)
     - pkgconfig(libtpms)
     - autoconf-archive
-    - doxygen
     - valgrind
-    # Tests
+checkdeps  :
+    - doxygen # docs
     - pkgconfig(uthash)
     - cmocka-devel
     - swtpm

@@ -29,14 +29,15 @@ builddeps  :
     - pkgconfig32(libzstd)
     - pkgconfig32(ncursesw)
     - pkgconfig32(zlib)
-    - doxygen
     - glibc-32bit-devel
     - libgcc-32bit
     - libstdc++-32bit
     - llvm-32bit-devel
-    - python-recommonmark
     - swig
     - llvm-bolt
+checkdeps  :
+    - doxygen
+    - python-recommonmark
 rundeps    :
     - devel :
         - zstd-devel
