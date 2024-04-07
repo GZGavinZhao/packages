@@ -13,9 +13,8 @@ builddeps  :
     - python-build
     - python-flit-core
     - python-installer
-    - python-wheel
-checkdeps  :
     - python-pytest
+    - python-wheel
 setup      : |
     rm -f setup.py
 build      : |

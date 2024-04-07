@@ -13,7 +13,6 @@ builddeps  :
     - python-build
     - python-hatch-vcs
     - python-installer
-checkdeps  :
     - python-pytest      # check
     - python-referencing # chek
 rundeps    :

@@ -12,9 +12,8 @@ description: |
 builddeps  :
     - python-build
     - python-installer
-    - python-wheel
-checkdeps  :
     - python-pytest
+    - python-wheel
 build      : |
     %python3_setup
 install    : |
